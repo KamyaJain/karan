@@ -1,0 +1,49 @@
+img {
+    border-radius: 0.8em;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 3em;
+}
+
+.row {
+    justify-content: center;
+}
+
+.reach-img + .reach-img {
+    margin-left: 2em;
+}
+
+.last,
+.content{
+    text-align: center;
+}
+
+p {
+    margin: 2em auto 0;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.img-last {
+    margin: 2em auto 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    img {
+        margin-top: 2em;
+    }
+    .reach-img + .reach-img {
+        margin-left: 0em;
+    }
+
+    p {
+        width: 95%;
+        font-size: 1.5rem;
+    }
+}
